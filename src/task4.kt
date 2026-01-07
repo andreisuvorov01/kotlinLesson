@@ -12,6 +12,6 @@ fun processOrder(orderId: String?, callback: (String) -> Unit) {
 
 fun main() {
     processOrder("12345") { msg -> println(msg) }
-    processOrder(null) { msg -> println(msg) } // Ничего не выводит
-    processOrder("") { msg -> println(msg) }   // Ничего не выводит
+    processOrder(null) { msg -> println(msg) }
+    processOrder("") { msg -> println(msg) }
 }

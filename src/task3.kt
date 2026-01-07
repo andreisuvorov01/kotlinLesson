@@ -14,7 +14,7 @@ fun main() {
     val user2 = User(null)
     val user3: User? = null
 
-    println(getUserCity(user1)) // "Moscow"
-    println(getUserCity(user2)) // null
-    println(getUserCity(user3)) // null
+    println(getUserCity(user1))
+    println(getUserCity(user2))
+    println(getUserCity(user3))
 }

@@ -8,7 +8,7 @@ fun getPriceWithDiscount(price: Double?, discount: Double?): Double {
 }
 
 fun main() {
-    println(getPriceWithDiscount(100.0, 10.0)) // 90.0
-    println(getPriceWithDiscount(100.0, null)) // 100.0
-    println(getPriceWithDiscount(null, 10.0))  // 0.0
+    println(getPriceWithDiscount(100.0, 10.0))
+    println(getPriceWithDiscount(100.0, null))
+    println(getPriceWithDiscount(null, 10.0))
 }
