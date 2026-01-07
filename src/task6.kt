@@ -10,6 +10,6 @@ fun getLengthOrZero(str: String?): Int {
 }
 
 fun main(){
-    getLengthOrZero("answer")
-    getLengthOrZero(null)
+    println(getLengthOrZero("answer"))
+    println(getLengthOrZero(null))
 }

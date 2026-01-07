@@ -8,7 +8,7 @@ fun sendEmailAnswer(email: String?) {
 
 fun main(){
     sendEmailAnswer("asdfg@mail.ru")
-    sendEmailAnswer("asdfgmail.ru")
-    sendEmailAnswer("")
-    sendEmailAnswer(null)
+    sendEmailAnswer("asdfgmail.ru")//не содержит @
+    sendEmailAnswer("")// пустое значение отбрасывается isNotBlank()
+    sendEmailAnswer(null)// не выполняется потому что let не вызывается после ?.
 }

@@ -7,9 +7,9 @@ class AddressAnswer(val city: String?)
 class UserAnswer(val address: AddressAnswer?)
 
 fun printUserCityAnswer(user: UserAnswer?) {
-    user?.address?.city?.let {
-        println("City: $it")
-    } ?: println("City unknown")
+    user?.address?.city?.let { //Выполняется только при условии, что все вызовы ?. сработали
+        println("City: $it") // выводит текущий элемент (it)
+    } ?: println("City unknown") // срабатывает только если какой-то из предыдущих вызовов вернул null
 }
 
 fun main(){
