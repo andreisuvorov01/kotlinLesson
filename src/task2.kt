@@ -4,7 +4,9 @@
  */
 
 fun getPriceWithDiscount(price: Double?, discount: Double?): Double {
-    TODO()
+    val safePrice = price ?: 0.0
+    val safeDiscount = discount ?: safePrice
+    return safePrice - safeDiscount
 }
 
 fun main() {

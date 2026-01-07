@@ -1,12 +1,12 @@
 
 
 
-class Address(val city: String?)
-class User(val address: Address?)
+//class Address(val city: String?)
+//class User(val address: Address?)
 
 fun getUserCity(user: User?): String? {
-    // Реализуй цепочку безопасных вызовов
-    TODO()
+    return user?.address?.city
+
 }
 
 fun main() {

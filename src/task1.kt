@@ -1,5 +1,5 @@
 fun getUserName(name: String?): Int? {
-    return name.length
+    return name?.length
 }
 
 fun main() {
