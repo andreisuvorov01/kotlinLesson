@@ -104,7 +104,6 @@ fun main() {
     // Пытаемся сделать еще один Американо - воды не хватит
     myMachine.makeCoffee(CoffeeType.AMERICANO)
     println()
-
     // Пополняем запасы
     myMachine.refillWater()
     myMachine.refillBeans()
